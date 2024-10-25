@@ -8,7 +8,7 @@ body {
 .second-nav {
   font-family: "Open Sans", sans-serif;
   /* при надобности удали или измени */
-  background-color: black;
+  /* background-color: black; */
   color: white;
   height: 94px;
   display: flex;
@@ -16,7 +16,13 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.second-nav > img {
+.logo-img {
+  display: flex;
+  align-items: center;
+  height: 94px;
+  width: auto;
+  border-right: 1px solid #ebebf033;
+  padding-right: 50px;
   margin-left: 50px;
 }
 .second-nav > ul {
@@ -45,7 +51,10 @@ body {
   background-color: #5c8ee5;
   color: #ffffff;
 }
-
+.parent {
+  display: flex;
+  gap: 50px;
+}
 .title-first {
   font-family: "Bebas Neue", sans-serif !important;
   font-weight: 400;
